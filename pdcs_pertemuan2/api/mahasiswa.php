@@ -21,10 +21,10 @@ if(!$r) {
     while($row = mysqli_fetch_assoc($r)) {
         $data[] = $row;
     }
-    
+
 sendResponse(
     true,
-    "Berhasil",
+    "Berhasil", 
     $data,
     200
 );
